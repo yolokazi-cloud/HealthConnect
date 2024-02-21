@@ -1,0 +1,70 @@
+# .gitignore for Django projects
+
+random_app_data/
+
+# Python-related
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyz
+*.pyw
+*.pyo
+*.pyc
+*.pyo
+*.pyi
+
+# Virtual environment
+venv/
+env/
+
+# Django-specific
+*.log
+*.sqlite3
+media/
+
+# Ignore secret key
+secret_key.txt
+
+# Ignore environment-specific settings
+.env
+
+# Ignore local settings
+local_settings.py
+
+# Ignore migrations
+**/migrations/
+
+# Ignore compiled translations
+locale/
+
+# Ignore pipenv virtual environment
+Pipfile
+Pipfile.lock
+
+# Ignore IDE and text editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.pyc
+*.pyo
+*.pyd
+*.db
+# *.sqlite3
+*.h5
+*.hdf5
+*.log
+*.tmp
+*.out
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore Windows system files
+Thumbs.db
+desktop.ini
